@@ -127,11 +127,11 @@ d) Drone nằm trong tầm quan sát của radar trong thời gian $3,2\text{ ph
 
 **Câu 1.** Một cây thông trang trí Noel có dạng hình nón với bán kính đường tròn đáy $r = 2\text{ m}$ và đường cao là $4\text{ m}$. Người ta quấn quanh thân cây thông một sợi dây kim tuyến từ một điểm $A$ nằm trên đường tròn đáy, quấn đúng một vòng quanh mặt nón rồi nối tới trung điểm $M$ của đường sinh $SA$ (sợi dây luôn bám sát mặt xung quanh của hình nón, tham khảo hình vẽ). Độ dài ngắn nhất của sợi dây đó bằng bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
 
-![Mô hình cây thông nón](de115_cau1_cone.png)
+![Mô hình cây thông nón](assets/de115_cau1_cone.png)
 
 **Câu 2.** Một thùng rượu làm bằng gỗ sồi có chiều cao $80\text{ cm}$. Bán kính của hai đáy thùng đều bằng $30\text{ cm}$, bán kính ở phần bụng giữa thùng là $40\text{ cm}$. Thân thùng rượu có dạng mặt cong sinh ra khi quay một cung parabol quanh trục đối xứng của nó nối tâm hai đáy (tham khảo hình vẽ). Hỏi thùng rượu đó có thể chứa được tối đa bao nhiêu lít rượu (làm tròn kết quả đến hàng đơn vị)?
 
-![Thùng rượu gỗ sồi](de115_cau2.png)
+![Thùng rượu gỗ sồi](assets/de115_cau2.png)
 
 **Câu 3.** Trong không gian với hệ tọa độ $Oxyz$ (đơn vị đo trên các trục là mét), một tuyến cáp treo di chuyển dọc theo đường thẳng $d_1: \dfrac{x - 1}{2} = \dfrac{y - 3}{2} = \dfrac{z - 2}{1}$ và một đường dây điện cao thế chạy thẳng dọc theo đường thẳng $d_2: \dfrac{x - 11}{1} = \dfrac{y - 5}{-2} = \dfrac{z - 2}{2}$. Khoảng cách ngắn nhất giữa tuyến cáp treo và đường dây điện cao thế bằng bao nhiêu mét?
 

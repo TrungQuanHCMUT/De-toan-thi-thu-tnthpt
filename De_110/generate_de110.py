@@ -4,10 +4,10 @@ def get_b64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
-b64_c1 = get_b64("assets_110/c1_gonsong.png")
-b64_c2 = get_b64("assets_110/c2_congparabol.png")
-b64_c3 = get_b64("assets_110/c3_sporthub.png")
-b64_c6 = get_b64("assets_110/c6_dentron.png")
+b64_c1 = get_b64("assets/c1_gonsong.png")
+b64_c2 = get_b64("assets/c2_congparabol.png")
+b64_c3 = get_b64("assets/c3_sporthub.png")
+b64_c6 = get_b64("assets/c6_dentron.png")
 
 html_content = r"""<!DOCTYPE html>
 <html lang="vi">

@@ -4,11 +4,11 @@ def get_base64_img(filename):
     with open(filename, 'rb') as f:
         return 'data:image/png;base64,' + base64.b64encode(f.read()).decode('utf-8')
 
-img_p3_c1 = get_base64_img('de200_p3_c1_ellipsoid.png')
-img_p3_c2 = get_base64_img('de200_p3_c2_fold.png')
-img_p3_c3 = get_base64_img('de200_p3_c3_frustum.png')
-img_p3_c5 = get_base64_img('de200_p3_c5_grid.png')
-img_p3_c6 = get_base64_img('de200_p3_c6_circles.png')
+img_p3_c1 = get_base64_img('assets/de200_p3_c1_ellipsoid.png')
+img_p3_c2 = get_base64_img('assets/de200_p3_c2_fold.png')
+img_p3_c3 = get_base64_img('assets/de200_p3_c3_frustum.png')
+img_p3_c5 = get_base64_img('assets/de200_p3_c5_grid.png')
+img_p3_c6 = get_base64_img('assets/de200_p3_c6_circles.png')
 
 html_content = r"""<!DOCTYPE html>
 <html lang="vi">

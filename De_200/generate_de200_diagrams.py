@@ -68,7 +68,7 @@ ax2.set_aspect('equal')
 ax2.axis('off')
 
 plt.tight_layout()
-plt.savefig('de200_p3_c1_ellipsoid.png', bbox_inches='tight', dpi=220)
+plt.savefig('assets/de200_p3_c1_ellipsoid.png', bbox_inches='tight', dpi=220)
 plt.close()
 
 # =========================================================
@@ -105,7 +105,7 @@ ax.set_aspect('equal')
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig('de200_p3_c2_fold.png', bbox_inches='tight', dpi=220)
+plt.savefig('assets/de200_p3_c2_fold.png', bbox_inches='tight', dpi=220)
 plt.close()
 
 # =========================================================
@@ -150,7 +150,7 @@ ax.set_aspect('equal')
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig('de200_p3_c3_frustum.png', bbox_inches='tight', dpi=220)
+plt.savefig('assets/de200_p3_c3_frustum.png', bbox_inches='tight', dpi=220)
 plt.close()
 
 # =========================================================
@@ -181,7 +181,7 @@ ax.set_aspect('equal')
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig('de200_p3_c5_grid.png', bbox_inches='tight', dpi=220)
+plt.savefig('assets/de200_p3_c5_grid.png', bbox_inches='tight', dpi=220)
 plt.close()
 
 # =========================================================
@@ -215,7 +215,7 @@ ax.set_aspect('equal')
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig('de200_p3_c6_circles.png', bbox_inches='tight', dpi=220)
+plt.savefig('assets/de200_p3_c6_circles.png', bbox_inches='tight', dpi=220)
 plt.close()
 
 print("All 5 minimal Ma De 200 diagrams generated successfully!")

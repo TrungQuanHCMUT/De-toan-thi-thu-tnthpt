@@ -617,7 +617,7 @@ with open("dap_an_hdg_gk1_de105.html", "w", encoding="utf-8") as f:
 print("dap_an_hdg_gk1_de105.html generated successfully!")
 
 # Run Google Chrome headless to convert HTML to PDF
-output_pdf = "/Users/macbookair/Desktop/Đề prompt/Bang_Dap_An_Va_HDG_De_Thi_Thu_GK1_Toan_12.pdf"
+output_pdf = "Bang_Dap_An_Va_HDG_De_Thi_Thu_GK1_Toan_12.pdf"
 cmd = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     "--headless",

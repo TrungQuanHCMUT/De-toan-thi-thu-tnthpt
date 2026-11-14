@@ -129,25 +129,25 @@ Khoảng tứ phân vị $\Delta_Q$ của mẫu số liệu ghép nhóm trên b�
 
 **Câu 1.** Một nghệ nhân chế tác một hạt vòng gỗ mỹ nghệ bằng cách tiện một khối gỗ đặc có hình dạng là khối tròn xoay thu được khi quay hình elip $(E)$ (có độ dài trục lớn bằng $10\text{ cm}$, độ dài trục nhỏ bằng $6\text{ cm}$) quanh trục lớn của nó. Sau đó, nghệ nhân khoan xuyên tâm dọc theo trục lớn một lỗ hình trụ có bán kính đáy $r = 1,8\text{ cm}$ (toàn bộ phần gỗ nằm bên trong mặt trụ bị loại bỏ, phần mặt cắt trên hệ trục $Oxy$ được tô đậm như hình vẽ bên dưới). Thể tích phần gỗ còn lại của hạt vòng bằng bao nhiêu $\text{cm}^3$ (làm tròn kết quả đến hàng phần mười)?
 
-![Hạt vòng elipxoit khoan lỗ trụ](de200_p3_c1_ellipsoid.png)
+![Hạt vòng elipxoit khoan lỗ trụ](assets/de200_p3_c1_ellipsoid.png)
 
 **Câu 2.** Cho một tờ giấy hình chữ nhật $ABCD$ có chiều rộng $AB = 12\text{ cm}$ và chiều dài $BC = 20\text{ cm}$. Người ta gấp góc $B$ của tờ giấy sao cho đỉnh $B$ chạm tới một điểm $E$ nằm trên cạnh đối diện $AD$, tạo thành nếp gấp là đoạn thẳng $MN$ (với $M$ nằm trên đoạn $AB$, $N$ nằm trên đoạn $BC$, tham khảo hình vẽ). Độ dài ngắn nhất của nếp gấp $MN$ bằng bao nhiêu centimét (làm tròn kết quả đến hàng phần mười)?
 
-![Gấp góc tờ giấy chữ nhật](de200_p3_c2_fold.png)
+![Gấp góc tờ giấy chữ nhật](assets/de200_p3_c2_fold.png)
 
 **Câu 3.** Phần bệ đỡ của một tháp quan sát được thiết kế có dạng hình chóp cụt tứ giác đều $ABCD.A'B'C'D'$ với cạnh đáy dưới $AB = 8\text{ m}$, cạnh đáy trên $A'B' = 2\text{ m}$ và chiều cao $OO' = 4\text{ m}$ (tham khảo hình vẽ). Tính số đo của góc nhị diện $[A, BB', C]$ tạo bởi hai mặt bên kề nhau (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
 
-![Hình chóp cụt tứ giác đều](de200_p3_c3_frustum.png)
+![Hình chóp cụt tứ giác đều](assets/de200_p3_c3_frustum.png)
 
 **Câu 4.** Trong không gian với hệ tọa độ $Oxyz$ (đơn vị đo trên các trục là mét), một phòng thí nghiệm có sàn nhà nằm trên mặt phẳng $(Oxy): z = 0$ và một bức tường kính phẳng nằm trên mặt phẳng $(P): x + y - 4 = 0$. Một thiết bị bay không người lái (drone) xuất phát từ điểm $A(1; 1; 2)$, bay thẳng tới chạm nhẹ vào bức tường kính $(P)$ tại điểm $M$, sau đó bay thẳng tới chạm sàn nhà $(Oxy)$ tại điểm $N$ rồi bay thẳng về trạm sạc $B(1; -3; 1)$. Tổng quãng đường bay ngắn nhất của drone bằng bao nhiêu mét?
 
 **Câu 5.** Trên mặt phẳng tọa độ $Oxy$, một robot tự hành xuất phát từ điểm $O(0; 0)$ để di chuyển đến đích $A(4; 4)$ theo các cạnh của lưới ô vuông đơn vị (tham khảo hình vẽ). Ở mỗi bước, robot chỉ được phép đi sang phải $1$ đơn vị hoặc đi lên trên $1$ đơn vị, và tất cả các đường đi ngắn nhất từ $O$ đến $A$ đều có khả năng được chọn như nhau. Biết rằng robot đã tránh được điểm chướng ngại vật $M(1; 2)$ (không đi qua $M$), tính xác suất để robot đi qua trạm tiếp nhiên liệu $N(3; 3)$.
 
-![Lưới tọa độ Câu 5](de200_p3_c5_grid.png)
+![Lưới tọa độ Câu 5](assets/de200_p3_c5_grid.png)
 
 **Câu 6.** Trong góc nhọn $\widehat{xOy} = 60^\circ$, người ta vẽ vô hạn các hình tròn $(C_1), (C_2), (C_3), \dots$ sao cho mỗi hình tròn đều tiếp xúc với hai tia $Ox, Oy$; hình tròn lớn nhất $(C_1)$ có bán kính $R_1 = 4\text{ cm}$ và mỗi hình tròn $(C_{n+1})$ có bán kính nhỏ hơn $(C_n)$ đồng thời tiếp xúc ngoài với $(C_n)$ với mọi $n \ge 1$ (tham khảo hình vẽ). Tổng diện tích của tất cả các hình tròn đó bằng bao nhiêu $\text{cm}^2$ (làm tròn kết quả đến hàng phần mười)?
 
-![Chuỗi đường tròn vô hạn Câu 6](de200_p3_c6_circles.png)
+![Chuỗi đường tròn vô hạn Câu 6](assets/de200_p3_c6_circles.png)
 
 ---
 **---------- HẾT ----------**  

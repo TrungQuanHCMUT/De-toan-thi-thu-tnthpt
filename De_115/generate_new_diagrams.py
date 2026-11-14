@@ -67,6 +67,6 @@ ax.set_aspect('equal')
 ax.axis('off')
 
 plt.tight_layout()
-plt.savefig('de115_cau1_cone.png', bbox_inches='tight', dpi=200)
+plt.savefig('assets/de115_cau1_cone.png', bbox_inches='tight', dpi=200)
 plt.close()
-print("Regenerated de115_cau1_cone.png successfully with full base!")
+print("Regenerated assets/de115_cau1_cone.png successfully with full base!")

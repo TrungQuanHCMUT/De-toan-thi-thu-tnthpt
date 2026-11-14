@@ -1,9 +1,9 @@
 # Python / Virtual Environment / Caches
 .venv/
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
-assets/.mpl/
+**/.mpl/
 
 # macOS OS Metadata
 .DS_Store
@@ -22,12 +22,13 @@ Giai_Chi_Tiet_De_THPT_Quang_Tri.md
 *de116*
 *_116.*
 
-# Build Intermediates & Temp PDFs
+# Build Intermediates & Temp PDFs (both root and inside exam folders)
 *.html
-p2_check.pdf
-p2_temp.pdf
-page_*.pdf
-test_*.pdf
+**/*.html
+**/p2_check.pdf
+**/p2_temp.pdf
+**/page_*.pdf
+**/test_*.pdf
 
 # Ad-hoc Patch, Fix, Debug & Test Scripts
 clean_*.py
@@ -37,36 +38,14 @@ solve_*.py
 test_*.py
 update_*.py
 
-# Root Page-Renders, Crops & Debug Images (keep only referenced exam diagrams)
+# Root temp/debug images & old leftover root assets folders (exam assets live inside De_*/assets/)
 /*.png
-!/cau1_diagram.png
-!/cau2_diagram.png
-!/cau3_diagram.png
-!/cau3_p2_graph.png
-!/de115_cau1_cone.png
-!/de115_cau2.png
-!/de115_cau5_integral.png
-!/de200_p3_c1_ellipsoid.png
-!/de200_p3_c2_fold.png
-!/de200_p3_c3_frustum.png
-!/de200_p3_c5_grid.png
-!/de200_p3_c6_circles.png
+/assets/
+/assets_111/
 
-# Unused / Sample-Crop / Debug Images inside assets directories
-assets/clean_drawing.png
-assets/de3_mang_nuoc_cau6.png
-assets/de3_nong_do_thuoc.png
-assets/debug_*.png
-assets/far_right.png
-assets/gk1_bbt_*.png
-assets/gk1_page_*.png
-assets/gk1_parabol_cau6.png
-assets/hinh_ho_nuoc_nhan_tao.png
-assets/hinh_khinh_khi_cau.png
-assets/preview_*.png
-assets/quang_tri_page_*.png
-assets/test_right_crop.png
-assets_111/cau1_tru.png
-assets_111/cau1_tru_exam.png
-assets_111/cau3_graph_crop.png
-assets_111/crop_*.png
+# Guard against future debug/page-render PNGs inside exam folders
+**/check_*.png
+**/debug_*.png
+**/preview*.png
+**/*_page_*.png
+**/crop_*.png

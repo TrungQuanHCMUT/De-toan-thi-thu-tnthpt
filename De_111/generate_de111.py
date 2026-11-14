@@ -2,11 +2,11 @@ import base64
 import subprocess
 import pypdf
 
-with open('assets_111/cau3_graph.png', 'rb') as f:
+with open('assets/cau3_graph.png', 'rb') as f:
     cau3_b64 = base64.b64encode(f.read()).decode('utf-8')
-with open('assets_111/cau5_phong.png', 'rb') as f:
+with open('assets/cau5_phong.png', 'rb') as f:
     cau5_b64 = base64.b64encode(f.read()).decode('utf-8')
-with open('assets_111/cau6_cancau.png', 'rb') as f:
+with open('assets/cau6_cancau.png', 'rb') as f:
     cau6_b64 = base64.b64encode(f.read()).decode('utf-8')
 
 html = f"""<!DOCTYPE html>

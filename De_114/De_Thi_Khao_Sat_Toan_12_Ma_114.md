@@ -108,7 +108,7 @@ d) Khoảng cách từ ngọn hải đăng $A(2; 3; 1)$ đến vị trí tàu ng
 
 **Câu 3.** Hình vẽ bên mô tả hiệu suất làm việc của hai công nhân trong một nhà máy trong thời gian $6\text{ giờ}$. Công nhân A đang sản xuất với hiệu suất $Q_1'(t) = -2t^2 + 4t + 58$ sản phẩm mỗi giờ, trong khi công nhân B đang sản xuất với hiệu suất $Q_2'(t) = 53 + at$ sản phẩm mỗi giờ ($a \in \mathbb{R}$). Biết rằng hàm $Q_1(t)$ và $Q_2(t)$ mô phỏng số lượng sản phẩm mới làm được của công nhân A và công nhân B sau $t\text{ giờ}$. Xét tính đúng sai của các mệnh đề sau:  
 
-![Đồ thị hiệu suất Câu 3](cau3_p2_graph.png)
+![Đồ thị hiệu suất Câu 3](assets/cau3_p2_graph.png)
 
 a) Hiệu suất cực đại của công nhân A là $60$ sản phẩm mỗi giờ.  
 b) Phần diện tích tô đậm biểu diễn cho tổng số lượng sản phẩm mới mà 2 công nhân làm được trong $6\text{ giờ}$.  
@@ -128,15 +128,15 @@ d) Gọi $M$ là trung điểm của $SA$, khoảng cách từ điểm $B$ đế
 
 **Câu 1.** Từ một tấm bìa lục giác đều cạnh bằng $30\text{ cm}$, bạn Bình muốn làm một hình chóp lục giác đều bằng cách cắt bỏ phần tô đậm và dán các mép lại với nhau (các mối ghép nối có kích thước không đáng kể, tham khảo hình vẽ). Để thể tích khối chóp lục giác đều tạo thành lớn nhất thì phần diện tích bạn Bình cắt đi là bao nhiêu $\text{cm}^2$ (không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng đơn vị)?
 
-![Hình minh họa Câu 1](cau1_diagram.png)
+![Hình minh họa Câu 1](assets/cau1_diagram.png)
 
 **Câu 2.** Một viên gạch hình vuông cạnh $10\text{ dm}$ có trang trí và sơn màu hồng ở phần tô đậm như hình 1. Hình 2 là bản vẽ thiết kế viên gạch đó trong hệ tọa độ $Oxy$ với một đơn vị của mỗi trục ứng với $1\text{ dm}$, $O$ là tâm hình vuông, các trục tọa độ lần lượt song song với các cạnh của hình vuông. Lúc này, mỗi hình $(C_1), (C_2), (C_3), (C_4)$ là một phần của một trong hai đường hypebol $y = -\dfrac{5}{x}$, $y = \dfrac{5}{x}$. Diện tích phần sơn màu hồng là bao nhiêu $\text{dm}^2$ (làm tròn kết quả đến hàng phần mười)?
 
-![Hình minh họa Câu 2](cau2_diagram.png)
+![Hình minh họa Câu 2](assets/cau2_diagram.png)
 
 **Câu 3.** Một khối cầu có bán kính là $5\text{ (dm)}$, người ta cắt bỏ hai phần của khối cầu bằng hai mặt phẳng song song cùng vuông góc đường kính và cách tâm một khoảng $3\text{ (dm)}$ để làm một chiếc lu đựng nước (như hình vẽ). Tính thể tích mà chiếc lu chứa được (kết quả làm tròn đến hàng đơn vị).
 
-![Hình minh họa Câu 3](cau3_diagram.png)
+![Hình minh họa Câu 3](assets/cau3_diagram.png)
 
 **Câu 4.** Trong không gian với hệ tọa độ $Oxyz$, cho mặt cầu $(S): (x - 1)^2 + (y - 2)^2 + (z + 1)^2 = 9$ và hai điểm $A(3; 2; 1)$, $B(-1; 0; 0)$. Điểm $M$ di động trên mặt cầu $(S)$. Tìm giá trị lớn nhất của biểu thức $P = 2MA^2 - MB^2$.
 
