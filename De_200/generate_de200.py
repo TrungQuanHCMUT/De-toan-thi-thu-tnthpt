@@ -198,8 +198,8 @@ body {
   display: inline-block;
 }
 .img-p3-c3 {
-  max-width: 280px;
-  width: 43%;
+  max-width: 364px;
+  width: 56%;
   height: auto;
   display: inline-block;
 }
@@ -469,8 +469,8 @@ body {
     <div style="flex: 1;">
       <span class="question-title">Câu 5.</span> Trên mặt phẳng tọa độ $Oxy$, một robot tự hành xuất phát từ điểm $O(0; 0)$ để di chuyển đến đích $A(4; 4)$ theo các cạnh của lưới ô vuông đơn vị (tham khảo hình vẽ). Ở mỗi bước, robot chỉ được phép đi sang phải $1$ đơn vị hoặc đi lên trên $1$ đơn vị, và tất cả các đường đi ngắn nhất từ $O$ đến $A$ đều có khả năng được chọn như nhau. Biết rằng robot đã tránh được điểm chướng ngại vật $M(1; 2)$ (không đi qua $M$), tính xác suất để robot đi qua trạm tiếp nhiên liệu $N(3; 3)$.
     </div>
-    <div style="width: 150px; text-align: right; flex-shrink: 0;">
-      <img src="__IMG_P3_C5__" style="width: 145px; height: auto;" alt="Lưới tọa độ Câu 5">
+    <div style="width: 260px; text-align: right; flex-shrink: 0;">
+      <img src="__IMG_P3_C5__" style="width: 254px; height: auto;" alt="Lưới tọa độ Câu 5">
     </div>
   </div>
 </div>
@@ -481,8 +481,8 @@ body {
     <div style="flex: 1;">
       <span class="question-title">Câu 6.</span> Trong góc nhọn $\widehat{xOy} = 60^\circ$, người ta vẽ vô hạn các hình tròn $(C_1), (C_2), (C_3), \dots$ sao cho mỗi hình tròn đều tiếp xúc với hai tia $Ox, Oy$; hình tròn lớn nhất $(C_1)$ có bán kính $R_1 = 4\text{ cm}$ và mỗi hình tròn $(C_{n+1})$ có bán kính nhỏ hơn $(C_n)$ đồng thời tiếp xúc ngoài với $(C_n)$ với mọi $n \ge 1$ (tham khảo hình vẽ). Tổng diện tích của tất cả các hình tròn đó bằng bao nhiêu $\text{cm}^2$ (làm tròn kết quả đến hàng phần mười)?
     </div>
-    <div style="width: 160px; text-align: right; flex-shrink: 0;">
-      <img src="__IMG_P3_C6__" style="width: 155px; height: auto;" alt="Chuỗi đường tròn vô hạn Câu 6">
+    <div style="width: 278px; text-align: right; flex-shrink: 0;">
+      <img src="__IMG_P3_C6__" style="width: 271px; height: auto;" alt="Chuỗi đường tròn vô hạn Câu 6">
     </div>
   </div>
 </div>
