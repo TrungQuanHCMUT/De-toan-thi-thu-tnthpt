@@ -16,7 +16,7 @@
 Mỗi đề thi được tổ chức thành **một thư mục độc lập** (bao gồm đề `.pdf`/`.md`, đáp án/HDG, script sinh đề `.py` và thư mục `assets/` chứa hình vẽ riêng của đề đó):
 
 ```text
-├── De_200/ ... De_201/  # Form chuẩn mới nhất (ĐỀ THI THỬ KÌ THI TNTHPT QUỐC GIA)
+├── De_200/ ... De_202/  # Form chuẩn mới nhất (ĐỀ THI THỬ KÌ THI TNTHPT QUỐC GIA)
 ├── De_108/ ... De_115/  # Bộ đề Khảo sát chất lượng & Ôn luyện tổng hợp Toán 12
 ├── De_107/              # Chuyên đề Khảo sát Hàm số
 ├── De_105/ ... De_106/  # Đề thi thử Giữa kì 1 Toán 12
@@ -34,6 +34,7 @@ Bao phủ toàn bộ chương trình Toán THPT theo cấu trúc kì thi TNTHPT 
 
 | Mã đề | Thư mục | Nội dung | Đề thi | Bảng đáp án | Đáp án & HDG chi tiết | Script tạo đề |
 |:---:|:---|:---|:---:|:---:|:---:|:---|
+| **202** | [De_202/](De_202/) | Đề thi thử Kì thi TNTHPT Quốc gia *(Form chuẩn mới 11.5pt)* | [PDF](De_202/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_202.pdf) · [MD](De_202/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_202.md) | [MD](De_202/Bang_Dap_An_De_202.md) | [PDF](De_202/Bang_Dap_An_Va_HDG_De_202.pdf) · [MD](De_202/Bang_Dap_An_Va_HDG_De_202.md) | [generate_de202.py](De_202/generate_de202.py) · [generate_de202_diagrams.py](De_202/generate_de202_diagrams.py) · [generate_dap_an_202.py](De_202/generate_dap_an_202.py) |
 | **201** | [De_201/](De_201/) | Đề thi thử Kì thi TNTHPT Quốc gia *(Form chuẩn mới 11.5pt)* | [PDF](De_201/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_201.pdf) · [MD](De_201/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_201.md) | [MD](De_201/Bang_Dap_An_De_201.md) | [PDF](De_201/Bang_Dap_An_Va_HDG_De_201.pdf) · [MD](De_201/Bang_Dap_An_Va_HDG_De_201.md) | [generate_de201.py](De_201/generate_de201.py) · [generate_de201_diagrams.py](De_201/generate_de201_diagrams.py) · [generate_dap_an_201.py](De_201/generate_dap_an_201.py) |
 | **200** | [De_200/](De_200/) | Đề thi thử Kì thi TNTHPT Quốc gia *(Form chuẩn mới)* | [PDF](De_200/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_200.pdf) · [MD](De_200/De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_200.md) | [MD](De_200/Bang_Dap_An_De_200.md) | [PDF](De_200/Bang_Dap_An_Va_HDG_De_200.pdf) · [MD](De_200/Bang_Dap_An_Va_HDG_De_200.md) | [generate_de200.py](De_200/generate_de200.py) · [generate_de200_diagrams.py](De_200/generate_de200_diagrams.py) · [generate_dap_an_200.py](De_200/generate_dap_an_200.py) |
 
@@ -72,26 +73,26 @@ Bao phủ toàn bộ chương trình Toán THPT theo cấu trúc kì thi TNTHPT 
 
 ---
 
-## 2. Hướng dẫn sử dụng Form chuẩn (Từ Mã đề 201 trở đi)
+## 2. Hướng dẫn sử dụng Form chuẩn (Từ Mã đề 201 – 202 trở đi)
 
-Bộ script khuôn mẫu cập nhật nằm trong thư mục **[`De_201/`](De_201/)** (kế thừa và chuẩn hóa từ [`De_200/`](De_200/)):
+Bộ script khuôn mẫu cập nhật nằm trong thư mục **[`De_201/`](De_201/)** và **[`De_202/`](De_202/)** (kế thừa và chuẩn hóa từ [`De_200/`](De_200/)):
 
-1. **`generate_de201_diagrams.py`** — Sinh các hình vẽ minh họa thật sự cần thiết cho Phần III bằng `matplotlib` vào `assets/` với phong cách tối giản (không chèn chú thích chữ hay số trục tọa độ dư thừa).
-2. **`generate_de201.py`** — Sinh đề thi PDF chuẩn **4 trang A4** bằng HTML + KaTeX + Google Chrome headless (`De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_201.pdf`), sử dụng **cỡ chữ `11.5pt` (`line-height: 1.40`) và ngắt trang tự nhiên liên tục** với quy cách chuẩn:
+1. **`generate_de202_diagrams.py`** — Sinh các hình vẽ minh họa thật sự cần thiết cho Phần III bằng `matplotlib` vào `assets/` với phong cách tối giản (không chèn chú thích chữ hay số trục tọa độ dư thừa).
+2. **`generate_de202.py`** — Sinh đề thi PDF chuẩn **4 trang A4** bằng HTML + KaTeX + Google Chrome headless (`De_Thi_Thu_TNTHPT_Quoc_Gia_Toan_Ma_202.pdf`), sử dụng **cỡ chữ `11.5pt` (`line-height: 1.40`) và ngắt trang tự nhiên liên tục** với quy cách chuẩn:
    - Tên kì thi trên đầu đề: **ĐỀ THI THỬ KÌ THI TNTHPT QUỐC GIA** *(không đặt dòng "ĐỀ ÔN TẬP CHÍNH THỨC" phía trên dòng "(Đề thi gồm có 04 trang)")*.
    - Khung **Mã đề** đặt ở **cột bên trái** (đánh số từ **200** trở đi).
    - **Phần I (12 câu):** Mức độ Nhận biết – Thông hiểu nhẹ nhàng (không tham số $m$, không bài đếm khó; nếu có xác suất có điều kiện thì cho công thức trực tiếp); Câu 3 là câu đạo hàm; có câu dãy số (Câu 12).
    - **Phần II (4 câu Đúng/Sai):** Không chèn đồ thị/hình vẽ; Câu 1 là dạng bài khảo sát hàm số thuần túy.
    - **Phần III (6 câu Trả lời ngắn):** Chỉ chèn hình vẽ tối giản cho các câu thật sự cần minh họa trực quan; Câu 6 kết hợp xác suất cổ điển (tổ hợp) và xác suất có điều kiện / Bayes.
-3. **`generate_dap_an_201.py`** — Sinh file PDF **Bảng Đáp Án & Hướng Dẫn Giải Chi Tiết** (`Bang_Dap_An_Va_HDG_De_201.pdf`).
+3. **`generate_dap_an_202.py`** — Sinh file PDF **Bảng Đáp Án & Hướng Dẫn Giải Chi Tiết** (`Bang_Dap_An_Va_HDG_De_202.pdf`).
 
 ### Cách chạy lại (từ bên trong thư mục đề)
 
 ```bash
-cd De_201
-python3 generate_de201_diagrams.py
-python3 generate_de201.py
-python3 generate_dap_an_201.py
+cd De_202
+python3 generate_de202_diagrams.py
+python3 generate_de202.py
+python3 generate_dap_an_202.py
 ```
 
-*(Lưu ý: Khi tạo đề mới `De_202/`, ... chỉ cần nhân bản thư mục `De_201/`, đổi tên file và mã đề tương ứng mà vẫn giữ nguyên CSS `@page`, cỡ chữ `11.5pt`, ngắt trang tự nhiên, bảng header và chuẩn KaTeX.)*
+*(Lưu ý: Khi tạo đề mới `De_203/`, ... chỉ cần nhân bản thư mục `De_202/`, đổi tên file và mã đề tương ứng mà vẫn giữ nguyên CSS `@page`, cỡ chữ `11.5pt`, ngắt trang tự nhiên, bảng header và chuẩn KaTeX.)*
